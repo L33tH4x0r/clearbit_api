@@ -22,7 +22,27 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Company Search
+
+You can search for a company
+
+```ruby
+company = ClearbitApi::Company.search('Stripe')
+
+puts company
+# [
+#   {
+#     "domain": "stripe.com",
+#     "logo": "https://logo.clearbit.com/stripe.com",
+#     "name": "Stripe"
+#   },
+#   {
+#     "domain": "stripesgroup.com",
+#     "logo": "https://logo.clearbit.com/stripesgroup.com",
+#     "name": "Stripes Group"
+#   }
+# ]
+```
 
 ## Development
 
@@ -38,4 +58,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
