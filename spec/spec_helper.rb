@@ -1,5 +1,6 @@
 require "bundler/setup"
 require "clearbit_api"
+require "httparty"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
