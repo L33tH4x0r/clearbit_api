@@ -1,4 +1,5 @@
 require "clearbit_api/version"
+require "httparty"
 
 module ClearbitApi
   class Company
