@@ -29,17 +29,31 @@ You can search for a company
 ```ruby
 company = ClearbitApi::Company.search('Stripe')
 
-puts company
+# puts company
 # [
 #   {
-#     "domain": "stripe.com",
-#     "logo": "https://logo.clearbit.com/stripe.com",
-#     "name": "Stripe"
+#     :name=>"Stripe",
+#     :domain=>"stripe.com",
+#     :logo=>"https://logo.clearbit.com/stripe.com"
 #   },
 #   {
-#     "domain": "stripesgroup.com",
-#     "logo": "https://logo.clearbit.com/stripesgroup.com",
-#     "name": "Stripes Group"
+#     :name=>"Stars and Stripes",
+#     :domain=>"stripes.com",
+#     :logo=>"https://logo.clearbit.com/stripes.com"
+#   },
+#   {
+#     :name=>"STRIPE CLUB｜ストライプクラブ",
+#     :domain=>"stripe-club.com",
+#     :logo=>"https://logo.clearbit.com/stripe-club.com"},
+#   {
+#     :name=>"Stripes Group",
+#     :domain=>"stripesgroup.com",
+#     :logo=>"https://logo.clearbit.com/stripesgroup.com"
+#   },
+#   {
+#     :name=>"Stripes",
+#     :domain=>"stripesstores.com",
+#     :logo=>"https://logo.clearbit.com/stripesstores.com"
 #   }
 # ]
 ```
